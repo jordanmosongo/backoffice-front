@@ -1,0 +1,10 @@
+$primaryColor: #3c3d71;
+$secondaryColor: #ff9100;
+@mixin title {
+}
+@mixin flex($direction) {
+  display: flex;
+  flex-direction: $direction;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,35 @@
+@import "../../App.scss";
+.header {
+  background-color: $primaryColor;
+  height: 7vh;
+  @include flex(row);
+  .header__container {
+    width: 70%;
+    margin: auto;
+    @include flex(row);
+    justify-content: space-between;
+    .header__container__logo {
+      color: #fff;
+      font-size: 35px;
+      text-decoration: none;
+      span {
+        color: $secondaryColor;
+      }
+    }
+    .header__container__menu {
+      @include flex(row);
+      li {
+        list-style: none;
+        padding: 0 20px;
+        a {
+          font-size: 20px;
+          color: $secondaryColor;
+          text-decoration: none;
+          &:hover {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+}
