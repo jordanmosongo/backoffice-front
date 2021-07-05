@@ -1,0 +1,13 @@
+@import "../../App.scss";
+.modal__title {
+  color: $primaryColor;
+  font-size: 30px;
+  text-align: center;
+}
+h3 {
+  color: $secondaryColor;
+}
+p,
+li {
+  font-size: 20px;
+}
